@@ -34,7 +34,7 @@ public class Rectangle {
     }
 
     public double area() {
-        return this.pointA.distance(this.pointB)*this.pointC.distance(this.pointB);
+        return this.pointA.distance(this.pointB) * this.pointC.distance(this.pointB);
 
     }
 

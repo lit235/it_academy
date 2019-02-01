@@ -1,32 +1,21 @@
 package _2_oop.hw_3_inheritance_polymorphism;
 
-import _2_oop.hw_1_class.Point;
 import _2_oop.hw_3_inheritance_polymorphism.triangel.EquilateralTriangle;
 import _2_oop.hw_3_inheritance_polymorphism.triangel.IsoscelesTriangle;
 import _2_oop.hw_3_inheritance_polymorphism.triangel.RightTriangle;
-
-import java.util.LinkedList;
+import _2_oop.hw_3_inheritance_polymorphism.triangel.Triangle;
 
 public class TestFigure {
     public static void main(String[] args) {
-        LinkedList<Figure> listFigure = new LinkedList();
-        Point pointA, pointB, pointC;
-        while (listFigure.size() < 100) {
-            pointA = Point.randomPoint(10);
-            pointB = Point.randomPoint(10);
-            pointC = Point.randomPoint(10);
-            if (RightTriangle.isRightTriangle(pointA, pointB, pointC)) {
-                listFigure.add(new RightTriangle(pointA, pointB, pointC));
-            } else if (IsoscelesTriangle.isIsoscelesTriangle(pointA, pointB, pointC)) {
-                listFigure.add(new IsoscelesTriangle(pointA, pointB, pointC));
-            } else if (EquilateralTriangle.isEquilateralTriangle(pointA, pointB, pointC)) {
-                listFigure.add(new EquilateralTriangle(pointA, pointB, pointC));
-            }
+        Figure[] figures = new Figure[40];
+        int n=10;
+        for (int i=0;i<figures.length/4;i+=4){
+            figures[i]= Triangle.randomTriangle(n);
+            figures[i+1]= RightTriangle.randomRightTriangle(n);
+            figures[i+2]= IsoscelesTriangle.randomIsoscelesTriangle(n);
+            figures[i+3]= EquilateralTriangle.randomEquilateralTriangle(n);
         }
 
-        for (Figure figure : listFigure) {
-            System.out.println(ShapeUtils.isTriangle(figure));
-            System.out.println(ShapeUtils.isQuadrilateral(figure));
-        }
+
     }
 }

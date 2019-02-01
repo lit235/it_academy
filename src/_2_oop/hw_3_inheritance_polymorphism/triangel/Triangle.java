@@ -45,4 +45,7 @@ public class Triangle implements Figure {
     public String toString() {
         return "A=" + pointA + ", B=" + pointB + ", C=" + pointC;
     }
+    public static Triangle randomTriangle(int n){
+        return new Triangle(Point.randomPoint(n),Point.randomPoint(n),Point.randomPoint(n));
+    }
 }

@@ -10,19 +10,34 @@ package _2_oop.hw_1_class;
 public class Car {
     private double fuelСonsumption;
     private double tankCapacity;
-
-    public double getDistance() {
-        return distance;
-    }
-
     private double distance;
 
     public Car(double fuelСonsumption) {
         this.fuelСonsumption = fuelСonsumption;
     }
 
+    public void setTankCapacity(double tankCapacity) {
+        this.tankCapacity = tankCapacity;
+    }
+
+    public double getDistance() {
+        return distance;
+    }
+
+    public void setDistance(double distance) {
+        this.distance = distance;
+    }
+
     public void fillUpGas(double liter) {
-        tankCapacity += liter;
+        setTankCapacity(getTankCapacity() + liter);
+    }
+
+    public double getFuelСonsumption() {
+        return fuelСonsumption;
+    }
+
+    public void setFuelСonsumption(double fuelСonsumption) {
+        this.fuelСonsumption = fuelСonsumption;
     }
 
     public double getTankCapacity() {
@@ -30,13 +45,15 @@ public class Car {
     }
 
     public String moveCar(double moveKm) {
-        double consumGas= moveKm*this.fuelСonsumption/100;
-        if (consumGas>this.tankCapacity){
-            return "Недостаточно топлива";
+        double consumGas = moveKm * getFuelСonsumption() / 100;
+        if (consumGas > getTankCapacity()) {
+            setDistance(getDistance() + 100 * getTankCapacity() / getFuelСonsumption());
+            setTankCapacity(0);
+            return "Машина остановилась, недостаточно топлива";
         }
-        this.tankCapacity-=consumGas;
-        this.distance+=moveKm;
-        return "Пройденый путь:"+getDistance()+" остаток топлива:"+getTankCapacity();
+        this.tankCapacity -= consumGas;
+        this.distance += moveKm;
+        return "Пройденый путь:" + getDistance() + " остаток топлива:" + getTankCapacity();
 
     }
 

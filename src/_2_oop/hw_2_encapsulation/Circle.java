@@ -22,11 +22,11 @@ public class Circle {
         this.radius = radius;
     }
 
-    public double lengthCircle(){
-        return 2*Math.PI*this.radius;
+    public double lengthCircle() {
+        return 2 * Math.PI * this.radius;
     }
 
-    public double area(){
-        return Math.PI*Math.pow(this.radius,2);
+    public double area() {
+        return Math.PI * Math.pow(this.radius, 2);
     }
 }

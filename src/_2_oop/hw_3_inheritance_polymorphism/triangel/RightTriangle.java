@@ -9,16 +9,25 @@ public class RightTriangle extends Triangle {
 
     @Override
     public double area() {
-        return getPointA().distance(getPointB())*getPointA().distance(getPointC())/2;
+        return getPointA().distance(getPointB()) * getPointA().distance(getPointC()) / 2;
     }
 
     @Override
     public String toString() {
         return "RightTriangle " + super.toString();
     }
-    public static boolean isRightTriangle(Point pointA, Point pointB, Point pointC){
-        return Math.abs(Math.pow(pointA.distance(pointB),2)+
-                Math.pow(pointA.distance(pointC),2)-
-                Math.pow(pointB.distance(pointC),2)) < EPSILON;
+
+    public static boolean isRightTriangle(Point pointA, Point pointB, Point pointC) {
+        return Math.abs(Math.pow(pointA.distance(pointB), 2) +
+                Math.pow(pointA.distance(pointC), 2) -
+                Math.pow(pointB.distance(pointC), 2)) < EPSILON;
+    }
+
+    public static RightTriangle randomRightTriangle(int n) {
+        Triangle t;
+        do {
+            t = Triangle.randomTriangle(n);
+        } while (isRightTriangle(t.getPointA(), t.getPointB(), t.getPointC()));
+        return new RightTriangle(t.getPointA(), t.getPointB(), t.getPointC());
     }
 }

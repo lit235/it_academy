@@ -21,4 +21,12 @@ public class EquilateralTriangle extends IsoscelesTriangle {
         return Math.abs(pointA.distance(pointB) - pointB.distance(pointC)) < EPSILON &&
                 Math.abs(pointB.distance(pointC) - pointC.distance(pointA)) < EPSILON;
     }
+
+    public static EquilateralTriangle randomEquilateralTriangle(int n) {
+        Triangle t;
+        do {
+            t = Triangle.randomTriangle(n);
+        } while (isEquilateralTriangle(t.getPointA(), t.getPointB(), t.getPointC()));
+        return new EquilateralTriangle(t.getPointA(), t.getPointB(), t.getPointC());
+    }
 }

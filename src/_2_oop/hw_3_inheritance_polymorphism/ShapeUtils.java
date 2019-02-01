@@ -1,6 +1,4 @@
 package _2_oop.hw_3_inheritance_polymorphism;
-
-
 import _2_oop.hw_3_inheritance_polymorphism.quadrilateral.Quadrilateral;
 import _2_oop.hw_3_inheritance_polymorphism.triangel.Triangle;
 

@@ -14,4 +14,12 @@ public class IsoscelesTriangle extends Triangle {
     public static boolean isIsoscelesTriangle(Point pointA, Point pointB, Point pointC){
         return Math.abs(pointA.distance(pointB) - pointA.distance(pointC)) < EPSILON;
     }
+
+    public static IsoscelesTriangle randomIsoscelesTriangle(int n) {
+        Triangle t;
+        do {
+            t = Triangle.randomTriangle(n);
+        } while (isIsoscelesTriangle(t.getPointA(), t.getPointB(), t.getPointC()));
+        return new IsoscelesTriangle(t.getPointA(), t.getPointB(), t.getPointC());
+    }
 }
