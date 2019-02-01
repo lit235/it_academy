@@ -8,7 +8,7 @@ public interface Figure {
     double perimeter();
 
     default boolean areaCompar(Figure figure) {
-        return this.area() - figure.area() < EPSILON;
+        return Math.abs(this.area() - figure.area()) < EPSILON;
     }
 
 }

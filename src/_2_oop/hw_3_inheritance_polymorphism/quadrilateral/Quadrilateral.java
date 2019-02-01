@@ -56,5 +56,4 @@ public class Quadrilateral implements Figure {
                 ", pointC=" + pointC +
                 ", pointD=" + pointD;
     }
-
 }

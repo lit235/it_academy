@@ -11,7 +11,8 @@ public class IsoscelesTriangle extends Triangle {
     public String toString() {
         return "IsoscelesTriangle " + super.toString();
     }
-    public static boolean isIsoscelesTriangle(Point pointA, Point pointB, Point pointC){
+
+    public static boolean isIsoscelesTriangle(Point pointA, Point pointB, Point pointC) {
         return Math.abs(pointA.distance(pointB) - pointA.distance(pointC)) < EPSILON;
     }
 
