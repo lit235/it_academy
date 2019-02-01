@@ -1,6 +1,4 @@
-package _2_oop._hw_1_class;
-
-import _2_oop._hw_1_class.Car;
+package _2_oop.hw_1_class;
 
 import java.util.Scanner;
 

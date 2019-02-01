@@ -17,30 +17,30 @@
  * Point(8, 14), т.е. new Point(3, 4).translate(1, 3) == new Point(4, 7), а new Point(4, 7).scale(2) == Point(8, 14)
  */
 
-package _2_oop._hw_1_class;
+package _2_oop.hw_1_class;
 
 public class Point {
-    private int x;
-    private int y;
+    private double x;
+    private double y;
 
-    public Point(int x, int y) {
+    public Point(double x, double y) {
         this.x = x;
         this.y = y;
     }
 
-    public int getX() {
+    public double getX() {
         return x;
     }
 
-    public void setX(int x) {
+    public void setX(double x) {
         this.x = x;
     }
 
-    public int getY() {
+    public double getY() {
         return y;
     }
 
-    public void setY(int y) {
+    public void setY(double y) {
         this.y = y;
     }
 
@@ -48,11 +48,23 @@ public class Point {
         return Math.sqrt(Math.pow(point.getX() - this.x, 2) + Math.pow(point.y - this.y, 2));
     }
 
-    public Point translate(int x, int y) {
+    public Point translate(double x, double y) {
         return new Point(this.x + x, this.y + y);
     }
 
     public Point scale(int scal) {
         return new Point(this.x * scal, this.y * scal);
+    }
+
+    @Override
+    public String toString() {
+        return "Point{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
+
+    public static Point randomPoint(int n) {
+        return new Point(Math.random() * n, Math.random() * n);
     }
 }

@@ -1,4 +1,4 @@
-package _2_oop._hw_1_class;
+package _2_oop.hw_1_class;
 
 public class TestPoint {
     public static void main(String[] args) {

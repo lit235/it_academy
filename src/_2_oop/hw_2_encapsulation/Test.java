@@ -1,6 +1,6 @@
-package _2_oop._hw_2_encapsulation;
+package _2_oop.hw_2_encapsulation;
 
-import _2_oop._hw_1_class.Point;
+import _2_oop.hw_1_class.Point;
 
 public class Test {
     public static void main(String[] args) {

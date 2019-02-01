@@ -8,34 +8,25 @@
  * Написать программу, тестовый класс с методом main, демонстрирующим создание объекта класса
  * Rectangle и применение вышеперечисленных методов.
  */
-package _2_oop._hw_2_encapsulation;
 
-import _2_oop._hw_1_class.Point;
+package _2_oop.hw_2_encapsulation;
 
-public class Rectangle {
-    private Point pointA;
-    private Point pointB;
-    private Point pointC;
+import _2_oop.hw_1_class.Point;
 
-    public Rectangle(Point pointA, Point pointC) {
-        this.pointA = pointA;
-        this.pointC = pointC;
-        this.pointB = new Point(pointC.getX(), pointA.getY());
+public class Circle {
+    private Point centr;
+    private double radius;
+
+    public Circle(Point centr, double radius) {
+        this.centr = centr;
+        this.radius = radius;
     }
 
-    public Rectangle(Point pointA, Point pointB, Point pointC) {
-        this.pointA = pointA;
-        this.pointB = pointB;
-        this.pointC = pointC;
+    public double lengthCircle(){
+        return 2*Math.PI*this.radius;
     }
 
-    public double lengthDiagonal() {
-        return this.pointA.distance(this.pointC);
+    public double area(){
+        return Math.PI*Math.pow(this.radius,2);
     }
-
-    public double area() {
-        return this.pointA.distance(this.pointB)*this.pointC.distance(this.pointB);
-
-    }
-
 }
