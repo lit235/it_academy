@@ -1,3 +1,5 @@
+package _2_oop.hw_1_class;
+
 /**
  * Создать класс Point, описывающий точку в двумерных координатах.
  * Полями этого класса должны быть координаты x и y.
@@ -16,9 +18,6 @@
  * в переменной р должна быть установлена точка с координатами
  * Point(8, 14), т.е. new Point(3, 4).translate(1, 3) == new Point(4, 7), а new Point(4, 7).scale(2) == Point(8, 14)
  */
-
-package _2_oop.hw_1_class;
-
 public class Point {
     private double x;
     private double y;

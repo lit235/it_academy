@@ -1,3 +1,7 @@
+package _2_oop.hw_2_encapsulation;
+
+import _2_oop.hw_1_class.Point;
+
 /**
  * Продолжение задачи 1. Используя класс точки, создать класс Rectangle, описывающий прямоугольник,
  * и класс Circle описывающий круг. В них должны храниться поля типа Point в роли координат.
@@ -8,10 +12,6 @@
  * Написать программу, тестовый класс с методом main, демонстрирующим создание объекта класса
  * Rectangle и применение вышеперечисленных методов.
  */
-package _2_oop.hw_2_encapsulation;
-
-import _2_oop.hw_1_class.Point;
-
 public class Rectangle {
     private Point pointA;
     private Point pointB;
