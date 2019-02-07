@@ -35,11 +35,11 @@ public class Table<K extends Comparable<K>, V> {
     }
 
     public void delForKey(K key) {
-        Iterator iteratorr= list.iterator();
-        Entry<K,V> entry;
-        while (iteratorr.hasNext()){
-            entry =(Entry<K, V>) iteratorr.next();
-            if (entry.getKey().compareTo(key)==0){
+        Iterator iteratorr = list.iterator();
+        Entry<K, V> entry;
+        while (iteratorr.hasNext()) {
+            entry = (Entry<K, V>) iteratorr.next();
+            if (entry.getKey().compareTo(key) == 0) {
                 iteratorr.remove();
             }
         }

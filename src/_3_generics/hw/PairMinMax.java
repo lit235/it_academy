@@ -1,7 +1,5 @@
 package _3_generics.hw;
 
-import java.util.Comparator;
-
 /**
  * Видоизмените класс из предыдущего упражнения, введя методы шах () и m in ()
  * для получения наибольшего и наименьшего из двух элементов.
@@ -12,10 +10,15 @@ public class PairMinMax<T extends Comparable<T>> extends Pair<T> {
         super(first, second);
     }
 
-    public T pairMax() {
-        return   super.getFirst().compareTo(super.getSecond()) > 0 ? super.getFirst() : super.getSecond();
+    public PairMinMax(Pair<T> pair) {
+        super(pair.getFirst(), pair.getSecond());
     }
+
+    public T pairMax() {
+        return super.getFirst().compareTo(super.getSecond()) > 0 ? super.getFirst() : super.getSecond();
+    }
+
     public T pairMin() {
-        return  super.getFirst().compareTo(super.getSecond()) < 0 ? super.getFirst() : super.getSecond();
+        return super.getFirst().compareTo(super.getSecond()) < 0 ? super.getFirst() : super.getSecond();
     }
 }

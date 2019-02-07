@@ -1,6 +1,6 @@
 package _3_generics.hw.task_3;
 
-public class Entry<K,V> {
+public class Entry<K, V> {
     private K key;
     private V value;
 
