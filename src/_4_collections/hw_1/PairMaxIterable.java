@@ -12,6 +12,10 @@ import java.util.List;
  * Наподобие такого.
  * for(Integer max : new PairMaxIterable(asList(Pair(1,2), Pair(3,2), Pair(1,5)))){
  * System.out.print(max + " ");
+ * <p>
+ * ***Сделать для `PairMaxIterable` утилитный параметризованный метод `maxPairs`
+ * с аргуметом `List<Pair<E>>` или varargs `E...`
+ * Наподобие [interval],   только параметризованный.
  * }
  */
 public class PairMaxIterable implements Iterable<Integer> {
@@ -33,6 +37,10 @@ public class PairMaxIterable implements Iterable<Integer> {
                 return (Integer) pairMinMax.pairMax();
             }
         };
+    }
+
+    public static<E extends Comparable<E>> Iterable<E> pairMaxInterval(int start, int end, List<Pair<E>> pairList) {
+        return new PairMaxInterval<E>(start, end, pairList);
     }
 
     @Override
