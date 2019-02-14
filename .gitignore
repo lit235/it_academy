@@ -1,3 +1,6 @@
-/.idea
+/idea
 /out
 test.iml
+it_academy.iml
+/target
+.idea/
