@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class Bus extends Car {
     public Bus(String brand, String model, Integer manufacture, Color color, Integer weight) {
-        super(brand, model, manufacture, color, weight,"Автобус");
+        super(brand, model, manufacture, color, weight, "Автобус");
     }
 
     @Override

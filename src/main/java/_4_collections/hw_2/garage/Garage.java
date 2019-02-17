@@ -7,9 +7,6 @@ public class Garage {
     private Map<Car, Integer> garage = new HashMap<>();
 
     public boolean putCar(Car car) {
-        if (car == null) {
-            return false;
-        }
         this.garage.put(car, this.garage.containsKey(car) ? this.garage.get(car) + 1 : 1);
         return true;
     }
@@ -26,7 +23,7 @@ public class Garage {
     }
 
     public Integer numberOfCars(Car car) {
-        return (car == null || !this.garage.containsKey(car)) ? 0 : this.garage.get(car);
+        return (!this.garage.containsKey(car)) ? 0 : this.garage.get(car);
     }
 
 }

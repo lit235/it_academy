@@ -30,7 +30,7 @@ public class UtilWordTest {
             put("ihiei", 2);
         }};
 
-        Assert.assertEquals(new UtilWord(null).getMapWord(), emptuMap);
+
         Assert.assertEquals(new UtilWord(emptuString).getMapWord(), emptuMap);
         Assert.assertEquals(new UtilWord(notWords).getMapWord(), emptuMap);
         Assert.assertEquals(new UtilWord(singleWords).getMapWord(), singleWordsMap);

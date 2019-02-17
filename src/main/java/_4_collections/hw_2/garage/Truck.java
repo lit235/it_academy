@@ -2,7 +2,7 @@ package _4_collections.hw_2.garage;
 
 import java.awt.*;
 
-public class Truck extends Car{
+public class Truck extends Car {
     public Truck(String brand, String model, Integer manufacture, Color color, Integer weight) {
         super(brand, model, manufacture, color, weight, "Грузовик");
     }

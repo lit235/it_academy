@@ -1,5 +1,6 @@
 package _4_collections.hw_2;
 
+
 import java.util.*;
 
 /**
@@ -17,8 +18,7 @@ public class UtilWord {
     public void countWord(String str) {
         List<String> listWords = new ArrayList<>();
         this.mapWord = new TreeMap<>();
-
-        if (str != null && str.length() != 0) {
+        if (str.length() != 0) {
             listWords.addAll(Arrays.asList(str.split("[^a-zA-Z]+")));
         }
         for (String word : listWords) {
