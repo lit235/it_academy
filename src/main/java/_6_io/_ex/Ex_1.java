@@ -9,7 +9,7 @@ import java.nio.file.Paths;
  */
 public class Ex_1 {
     public static void printFile() {
-        try (InputStream inputStream = new FileInputStream("1")) {
+        try (InputStream inputStream = new FileInputStream("Pushkin")) {
             InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
             BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
             String str;
@@ -19,15 +19,11 @@ public class Ex_1 {
             }
 
         }catch (Exception ex)
-        {System.out.println(ex);}
+        {}
     }
 
     public static void main(String[] args) {
-        try(OutputStream outputStream = new FileOutputStream(Paths.get("6").toFile())) {
 
-        }catch (Exception ex){
-            System.out.println(ex);
-        }
-//        printFile();
+        printFile();
     }
 }

@@ -16,7 +16,7 @@ package _2_oop.hw_1_class;
  * Например, в следующей строке кода:\
  * Point р = new Point(3, 4).translate(1, 3).scale(2);
  * в переменной р должна быть установлена точка с координатами
- * Point(8, 14), т.е. new Point(3, 4).translate(1, 3) == new Point(4, 7), а new Point(4, 7).scale(2) == Point(8, 14)
+ * Point(8, 14), т.е. new Point(3, 4).translate(1, 3) == new Point(4, Output), а new Point(4, Output).scale(2) == Point(8, 14)
  */
 public class Point {
     private double x;
