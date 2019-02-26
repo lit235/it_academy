@@ -1,4 +1,4 @@
-package _6_io.hw_1;
+package _6_io.hw_1_1;
 
 import org.jetbrains.annotations.NotNull;
 
