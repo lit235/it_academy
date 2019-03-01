@@ -53,7 +53,6 @@ public class Lessons_2 {
         String str;
         while (flag) {
             str = cs.next();
-            System.out.println(str.length());
             if (str.equals("p")) {
                 print();
             } else if (str.equals("y")) {
