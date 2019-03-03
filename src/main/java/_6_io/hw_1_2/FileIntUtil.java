@@ -2,6 +2,7 @@ package _6_io.hw_1_2;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
 
@@ -37,7 +38,7 @@ public class FileIntUtil {
         }
 
         //sort
-        integerList.sort((a,b)->Integer.compare(a,b));
+        integerList.sort(Comparator.naturalOrder());
 
         try (OutputStream outputStream = new FileOutputStream(file,false)){
             DataOutput out = new DataOutputStream(outputStream);

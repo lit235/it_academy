@@ -25,24 +25,27 @@ public class CountLetter {
         cleanLettersMap();
     }
 
-    public void count(@NotNull InputStream in, @NotNull OutputStream out) throws IOException {
+    public void count(@NotNull File inFile, @NotNull File outFile) throws IOException {
         cleanLettersMap();
-
-        BufferedReader textReader = new BufferedReader(new InputStreamReader(in), bufferReaderSize);
-        String text;
-        while ((text = textReader.readLine()) != null) {
-            addLetters(text);
-        }
-
-        Writer textWriter = new BufferedWriter(new OutputStreamWriter(out), bufferReaderSize);
-        this.lettersMap.forEach((k, v) -> {
-            try {
-                textWriter.write(k + " - " + v + "\n");
-            } catch (IOException e) {
-                e.printStackTrace();
+        try (BufferedReader textReader = new BufferedReader(new InputStreamReader(new FileInputStream(inFile)), bufferReaderSize);
+             Writer textWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(outFile)), bufferReaderSize);
+        ) {
+            String text;
+            while ((text = textReader.readLine()) != null) {
+                addLetters(text);
             }
-        });
-        textWriter.flush();
+
+            this.lettersMap.forEach((k, v) -> {
+                try {
+                    textWriter.write(k + " - " + v + "\n");
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            });
+            textWriter.flush();
+        } catch (IOException ex) {
+            throw new UncheckedIOException(ex);
+        }
     }
 
     public void addLetters(@NotNull String text) {
@@ -57,19 +60,17 @@ public class CountLetter {
         this.lettersMap.put(letter, this.lettersMap.getOrDefault(letter, 0) + 1);
     }
 
-    public void cleanLettersMap() {
+    private void cleanLettersMap() {
         this.lettersMap = new TreeMap<>();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        File in = new File("Pushkin");
+        File out = new File("Output");
 
-        try (InputStream in = new FileInputStream("Pushkin");
-             OutputStream out = new FileOutputStream("Output")) {
 
             new CountLetter().count(in, out);
 
-        } catch (IOException ex) {
 
-        }
     }
 }
