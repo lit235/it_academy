@@ -1,14 +1,16 @@
 package _8_1_java8.hw_1;
 
-import javax.swing.text.html.Option;
-import java.util.List;
+
+import java.util.*;
 
 /**
  * Пусть дан список строк List. Найдите в нем строку, содержащую максимальное число строчных букв.
  * Чтобы код правильно работал, когда входной список пуст, можете возвращать объект типа Optional<String>.
  */
-public class UtilList {
-    /*public static Option maxLenght(List<String> list){
-        return new Option();
-    }*/
+public class SmallLetters {
+    public static Optional<String> max(List<String> list) {
+        return list.stream()
+                .max(Comparator.comparingLong(s -> s.replaceAll("[^a-zа-я]", "").length()));
+
+    }
 }

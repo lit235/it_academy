@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0739f636-eee1-4311-b5c2-e80fff2b10e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_8_1_java8/hw_1/UtilList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_8_1_java8/hw_1/CountWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_8_1_java8/hw_1/SmallLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_8_1_java8/hw_1/CountWordsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_8_1_java8/hw_1/SmallLettersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_6_io/hw_1_1/CountLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_6_io/hw_1_1/CountLetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_7_concurrent/_ex_3/MyExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_7_concurrent/_ex_3/MyExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10" beforeDir="false" afterPath="$PROJECT_DIR$/10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_8_1_java8/hw_1/UtilList.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,40 +21,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_7_concurrent/_ex_3/MyExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="95" column="19" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
-              <folding>
-                <element signature="e#2799#2800#0" expanded="true" />
-                <element signature="e#2827#2828#0" expanded="true" />
-                <element signature="e#2878#2879#0" expanded="true" />
-                <element signature="e#2906#2907#0" expanded="true" />
-                <element signature="e#3144#3145#0" expanded="true" />
-                <element signature="e#3171#3172#0" expanded="true" />
-                <element signature="e#3266#3267#0" expanded="true" />
-                <element signature="e#3293#3294#0" expanded="true" />
-                <element signature="e#3379#3380#0" expanded="true" />
-                <element signature="e#3406#3407#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_8_1_java8/й.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_8_1_java8/hw_1/UtilList.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_8_1_java8/hw_1/SmallLetters.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="7" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="7" />
+              <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_8_1_java8/hw_1/CountWords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,61 +42,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_6_io/hw_1_2/FileIntUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/_8_1_java8/hw_1/CountWordsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-188">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="339">
+              <caret line="26" column="72" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_6_io/hw_1_1/CountLetter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-465">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/concurrent/ExecutorService.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/concurrent/ThreadPoolExecutor.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_5_exceptions/ScannerDoubleConsole.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_7_concurrent/_ex_1/Lessons_4_5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -124,8 +58,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -140,10 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/_4_collections/hw_2/garage/Bus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_5_exceptions/hw_1.md" />
-        <option value="$PROJECT_DIR$/src/test/java/_5_exceptions/ScannerDoubleConsoleTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_5_exceptions/ScannerDoubleConsole.java" />
         <option value="$PROJECT_DIR$/src/main/java/_6_io/_ex/ex_1.md" />
         <option value="$PROJECT_DIR$/src/test/java/_4_collections/hw_2/UtilWordTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/_4_collections/hw_2/UtilWord.java" />
@@ -168,7 +98,6 @@
         <option value="$PROJECT_DIR$/src/main/java/_6_io/hw_1_2/GeniratorIntFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/_6_io/hw_1_2/WriteRandomInt.java" />
         <option value="$PROJECT_DIR$/src/main/java/_6_io/hw_1_2/SortIntFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_6_io/hw_1_2/FileIntUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/_7_concurrent/_ex_1/Lessons_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/_7_concurrent/_ex_1/Lessons_3.java" />
         <option value="$PROJECT_DIR$/src/main/java/_7_concurrent/_ex_1/Lessons_4.java" />
@@ -189,8 +118,13 @@
         <option value="$PROJECT_DIR$/src/main/java/_7_concurrent/_ex_3/MyExecutorService.java" />
         <option value="$PROJECT_DIR$/src/main/java/_7_concurrent/_ex_3/MyExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/_6_io/hw_1_1/CountLetter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_8_1_java8/hw_1/UtilList.java" />
         <option value="$PROJECT_DIR$/Output" />
+        <option value="$PROJECT_DIR$/src/main/java/_6_io/hw_1_2/FileIntUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_8_1_java8/hw_1/UtilList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/_8_1_java8/hw_1/SmallLettersTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_8_1_java8/hw_1/SmallLetters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_8_1_java8/hw_1/CountWords.java" />
+        <option value="$PROJECT_DIR$/src/test/java/_8_1_java8/hw_1/CountWordsTest.java" />
       </list>
     </option>
   </component>
@@ -213,6 +147,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,6 +211,15 @@
               <item name="it_academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="it_academy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="_8_1_java8" type="462c0819:PsiDirectoryNode" />
+              <item name="hw_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="it_academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="it_academy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -313,19 +257,26 @@
             <path>
               <item name="it_academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="it_academy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hw_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="it_academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="it_academy" type="462c0819:PsiDirectoryNode" />
               <item name="temp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551602362155" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551632561393" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -338,17 +289,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="_8_1_java8.hw_1" />
       <recent name="_6_io.hw_1" />
       <recent name="_5_exceptions" />
       <recent name="_4_collections.hw_2.garage" />
       <recent name="_4_collections.hw_2" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_7_concurrent._ex_3" />
       <recent name="_7_concurrent._ex_1" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/target" />
@@ -366,13 +318,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileIntUtil">
-    <configuration name="CountLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_6_io.hw_1_1.CountLetter" />
+  <component name="RunManager" selected="JUnit.CountWordsTest">
+    <configuration name="CountWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_8_1_java8.hw_1.CountWords" />
       <module name="it_academy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_6_io.hw_1_1.*" />
+          <option name="PATTERN" value="_8_1_java8.hw_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -393,12 +345,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lessons_2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_7_concurrent._ex_2.Lessons_2" />
+    <configuration name="SmallLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_8_1_java8.hw_1.SmallLetters" />
       <module name="it_academy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_7_concurrent._ex_2.*" />
+          <option name="PATTERN" value="_8_1_java8.hw_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -406,46 +358,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_7_concurrent._ex_3.MyExecutor" />
+    <configuration name="CountWordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="it_academy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_7_concurrent._ex_3.*" />
+          <option name="PATTERN" value="_8_1_java8.hw_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="_8_1_java8.hw_1" />
+      <option name="MAIN_CLASS_NAME" value="_8_1_java8.hw_1.CountWordsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_7_concurrent.hw_2.UtilArrayList" />
+    <configuration name="SmallLettersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="it_academy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_7_concurrent.hw_2.*" />
+          <option name="PATTERN" value="_8_1_java8.hw_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="_8_1_java8.hw_1" />
+      <option name="MAIN_CLASS_NAME" value="_8_1_java8.hw_1.SmallLettersTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Lessons_2 (1)" />
-      <item itemvalue="Application.MyExecutor" />
-      <item itemvalue="Application.UtilArrayList" />
-      <item itemvalue="Application.CountLetter" />
       <item itemvalue="Application.FileIntUtil" />
+      <item itemvalue="Application.SmallLetters" />
+      <item itemvalue="JUnit.SmallLettersTest" />
+      <item itemvalue="JUnit.CountWordsTest" />
+      <item itemvalue="Application.CountWords" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CountWordsTest" />
+        <item itemvalue="Application.CountWords" />
+        <item itemvalue="JUnit.SmallLettersTest" />
+        <item itemvalue="Application.SmallLetters" />
         <item itemvalue="Application.FileIntUtil" />
-        <item itemvalue="Application.CountLetter" />
-        <item itemvalue="Application.MyExecutor" />
-        <item itemvalue="Application.UtilArrayList" />
-        <item itemvalue="Application.Lessons_2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -478,50 +434,51 @@
       <workItem from="1551428686765" duration="6375000" />
       <workItem from="1551455347502" duration="5161000" />
       <workItem from="1551534792869" duration="1156000" />
-      <workItem from="1551600719319" duration="1487000" />
+      <workItem from="1551600719319" duration="8679000" />
+      <workItem from="1551621850121" duration="9862000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LetterCountTest - 2019.02.19 at 21h 25m 50s.xml">
-      <configuration name="LetterCountTest" configurationId="JUnit" />
+    <history-entry file="SmallLettersTest - 2019.03.03 at 18h 28m 07s.xml">
+      <configuration name="SmallLettersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LetterCountTest - 2019.02.19 at 21h 30m 53s.xml">
-      <configuration name="LetterCountTest" configurationId="JUnit" />
+    <history-entry file="SmallLettersTest - 2019.03.03 at 18h 28m 24s.xml">
+      <configuration name="SmallLettersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LetterCountTest - 2019.02.19 at 21h 34m 16s.xml">
-      <configuration name="LetterCountTest" configurationId="JUnit" />
+    <history-entry file="SmallLettersTest - 2019.03.03 at 18h 30m 13s.xml">
+      <configuration name="SmallLettersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LetterCountTest - 2019.02.19 at 21h 34m 32s.xml">
-      <configuration name="LetterCountTest" configurationId="JUnit" />
+    <history-entry file="SmallLettersTest - 2019.03.03 at 18h 30m 26s.xml">
+      <configuration name="SmallLettersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LetterCountTest - 2019.02.20 at 00h 10m 50s.xml">
-      <configuration name="LetterCountTest" configurationId="JUnit" />
+    <history-entry file="SmallLettersTest - 2019.03.03 at 18h 35m 58s.xml">
+      <configuration name="SmallLettersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LetterCountTest - 2019.02.20 at 00h 12m 00s.xml">
-      <configuration name="LetterCountTest" configurationId="JUnit" />
+    <history-entry file="SmallLettersTest - 2019.03.03 at 18h 36m 33s.xml">
+      <configuration name="SmallLettersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountLetterTest - 2019.02.20 at 00h 35m 20s.xml">
-      <configuration name="CountLetterTest" configurationId="JUnit" />
+    <history-entry file="SmallLettersTest - 2019.03.03 at 18h 37m 36s.xml">
+      <configuration name="SmallLettersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountLetterTest - 2019.02.20 at 00h 46m 04s.xml">
-      <configuration name="CountLetterTest" configurationId="JUnit" />
+    <history-entry file="SmallLettersTest - 2019.03.03 at 18h 39m 03s.xml">
+      <configuration name="SmallLettersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountLetterTest - 2019.02.20 at 00h 47m 17s.xml">
-      <configuration name="CountLetterTest" configurationId="JUnit" />
+    <history-entry file="SmallLettersTest - 2019.03.03 at 18h 40m 26s.xml">
+      <configuration name="SmallLettersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountLetterTest - 2019.02.20 at 00h 47m 37s.xml">
-      <configuration name="CountLetterTest" configurationId="JUnit" />
+    <history-entry file="CountWordsTest - 2019.03.03 at 19h 59m 35s.xml">
+      <configuration name="CountWordsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117339000" />
+    <option name="totallyTimeSpent" value="134393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1307" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19429025" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19746234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -530,7 +487,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38762215" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38762215" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -538,7 +495,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3262987" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3257329" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -552,35 +509,35 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24980174" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.32899022" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19746234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38762215" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32899022" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3257329" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32899022" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,74 +584,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/Object.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/io/DataOutput.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/io/FileInputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/Comparator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_7_concurrent/_ex_1/Lessons_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_7_concurrent/t.java" />
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/List.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/io/FilterInputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/concurrent/CopyOnWriteArrayList.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-          <folding>
-            <element signature="e#1255#1256#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/io/EOFException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_5_exceptions/hw_1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -948,29 +837,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_7_concurrent/_ex_1/Lessons_4_5.java">
+    <entry file="file://$PROJECT_DIR$/Output">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/String.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="10125">
+          <caret line="746" column="21" selection-start-line="746" selection-start-column="21" selection-end-line="746" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_8_1_java8/hw_1/UtilList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_generics/hw/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="150">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/TreeMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/List.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/Map.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3735">
+          <caret line="267" column="21" selection-start-line="267" selection-start-column="21" selection-end-line="267" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_6_io/hw_1_2/FileIntUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Output">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_6_io/hw_1_1/CountLetter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-465">
+        <state relative-caret-position="210">
           <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -978,10 +895,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_6_io/hw_1_2/FileIntUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_7_concurrent/_ex_1/Lessons_4_5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-188">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="420">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/stream/IntStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_8_1_java8/hw_1/SmallLetters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/_8_1_java8/hw_1/SmallLettersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/stream/Collectors.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="205" column="38" lean-forward="true" selection-start-line="205" selection-start-column="38" selection-end-line="205" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_8_1_java8/hw_1/CountWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/_8_1_java8/hw_1/CountWordsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="26" column="72" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
