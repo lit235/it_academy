@@ -2,12 +2,12 @@ package _4_collections.hw_2;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.omg.PortableInterceptor.ServerRequestInfo;
+
 
 import java.util.Map;
 import java.util.TreeMap;
 
-import static org.junit.Assert.*;
+
 
 public class UtilWordTest {
 
